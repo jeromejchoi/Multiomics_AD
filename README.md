@@ -2,4 +2,4 @@
 
 Alzheimer’s disease (AD) is a complex, heterogeneous, and multifactorial condition, not driven by a single specific factor. Multi-omics approaches are instrumental in elucidating such diseases, including AD, which involve multiple factors. Machine learning methods provide novel techniques to integrate and analyze diverse omics data, facilitating the discovery of new disease risk factors. This study employs machine learning approaches to identify the single and interactive effects of key AD risk factors within multi-omics data, encompassing transcriptomics and metabolomics. We trained Coop-DOT, machine learning models to predict AD-phenotype outcomes, such as Preclinical Alzheimer's Cognitive Composite 3 (PACC3) and ptau217, using imputed gene expression and plasma metabolites from participants in the Wisconsin Registry for Alzheimer’s Prevention.
 
-![Title](images/Fig1.png "Title")
+![Title](Images/fig1.png "Title")
