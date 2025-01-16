@@ -1,0 +1,7 @@
+# coTF-reg: Single-cell multi-omics analysis reveals cooperative transcription factors for gene regulation in oligodendrocytes
+
+Oligodendrocytes are the myelinating cells within the central nervous system. Many genes expressed in oligodendrocytes have been associated with brain disorders, and are controlled by complex gene regulatory mechanisms involving several transcription factors (TFs). Individual TFs play important roles, but gene regulation depends on the coordinate action of TF’s that  co-regulate gene expression from regulatory elements in promoters and enhancers. While some instances of co-regulation have been identified, the regulatory mechanisms of cooperative TFs in oligodendrocytes remain largely uncharacterized.
+
+To address this, we integrated published scRNA-seq and scATAC-seq data to identify the cooperative TFs that co-regulate the expression levels of target genes (TGs) in oligodendrocytes. First, we identified co-binding TF pairs whose binding sites overlapped in oligodendrocyte-specific regulatory regions. Second, we trained a deep learning model to predict the expression level of each TG using the expression levels of co-binding TFs. Third, using the trained models, we computed the TF importance and TF-TF interaction scores for predicting TG expression levels by the Shapley interaction (SI) scores. Finally, we found co-binding TF pairs with high SI scores as ‘cooperative’ TFs for gene regulation in oligodendrocytes.
+
+![Title](images/Fig1.png "Title")
