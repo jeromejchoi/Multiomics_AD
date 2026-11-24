@@ -43,7 +43,7 @@ The finalized workflow is shown in **Figure 1 of the [published paper](https://j
 
 ## Biological findings
 
-The analysis identified candidate genes and metabolites associated with cognitive performance. Important transcriptomic features included **RIPK1, IL6ST, BIN1, UGP2, NDUFB5, and TMOD2**. Metabolomic contributors included **benzoate, 3-phenylpropionate, imidazolelactate, and hexanoylcarnitine**, among others.
+The analysis identified candidate genes and metabolites associated with cognitive performance. Important transcriptomic features included *RIPK1*, *IL6ST*, *BIN1*, *UGP2*, *NDUFB5*, and *TMOD2*. Metabolomic contributors included **benzoate, 3-phenylpropionate, imidazolelactate, and hexanoylcarnitine**, among others.
 
 The findings pointed to molecular processes involving inflammatory signaling, mitochondrial function, and lipid metabolism. These are **candidate associations and predictive features**, not evidence that individual biomarkers causally determine cognitive outcomes.
 
