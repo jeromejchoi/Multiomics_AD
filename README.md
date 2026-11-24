@@ -1,8 +1,8 @@
-# Multi-omics integration of transcriptomics and metabolomics with machine learning uncovers risk factors for cognitive function
+# Multi-omics integration of transcriptomics and metabolomics with machine learning uncovers novel risk factors for Alzheimer's disease
 
 **Transcriptomics · Metabolomics · Cooperative learning · Alzheimer’s disease research**
 
-This repository provides a public overview of our study, **“Multi-omics integration of transcriptomics and metabolomics with machine learning uncovers risk factors for cognitive function,”** published in the *Journal of Alzheimer's Disease* (2026).
+This repository provides a public overview of our study, **“Multi-omics integration of transcriptomics and metabolomics with machine learning uncovers novel risk factors for Alzheimer's disease,”** published in the *Journal of Alzheimer's Disease* (2026).
 
 **Publication:** [Read the paper](https://journals.sagepub.com/doi/10.1177/13872877261487621)  
 **Authors:** Jerome J. Choi, Corinne D. Engelman, Tianyuan Lu
@@ -15,9 +15,9 @@ The target was the **Preclinical Alzheimer's Cognitive Composite 3 (PACC3)**, a 
 
 ## Study design
 
-The finalized workflow is shown in **Figure 1 of the [published paper](https://journals.sagepub.com/doi/10.1177/13872877261487621)**. It depicts genotype-based expression imputation, biomarker pre-selection, cooperative-learning prediction of cognitive scores, feature-importance analysis, and independent validation.
+![Figure 1: Study design for multi-omics integration and cognitive-score prediction](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ee96/13653362/3cc3e4a6bb3c/nihms-2213225-f0001.webp)
 
-
+*Figure 1. Study design: gene expression imputation, biomarker screening, multi-view prediction, feature importance, and independent validation. Source: [published manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC13653362/).*
 
 1. **Data preparation:** Impute gene expression from genotype information and assemble measured plasma metabolomics.
 2. **Feature screening:** Evaluate transcriptomic and metabolomic associations with PACC3, adjusting for age, sex, APOE score, and education.
@@ -40,6 +40,12 @@ The finalized workflow is shown in **Figure 1 of the [published paper](https://j
 | ADRC external validation | 0.915 | 0.061 |
 
 *Normalized RMSE was calculated relative to the interquartile range of observed cognitive scores. External validation performance was substantially lower than holdout performance and should be interpreted cautiously given the small independent cohort.*
+
+## Selected results
+
+- The multi-omics model explained **33.8% of variance** in cognitive performance in the WRAP holdout cohort (R² = 0.338), versus **22.7%** for the covariate-only baseline (R² = 0.227).
+- In the independent Wisconsin ADRC cohort, the model achieved **NRMSE = 0.915** and **R² = 0.061**. Results should be interpreted cautiously given the relatively small external cohort (n = 85).
+- Screening identified **354 candidate genes** out of 6,678 imputed expression features and **150 metabolites** out of 1,125 measurements for downstream modeling.
 
 ## Biological findings
 
