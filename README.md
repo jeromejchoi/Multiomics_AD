@@ -15,9 +15,9 @@ The target was the **Preclinical Alzheimer's Cognitive Composite 3 (PACC3)**, a 
 
 ## Study design
 
-![Overview of the multi-omics study design](Images/Fig1.png)
+The finalized workflow is shown in **Figure 1 of the [published paper](https://journals.sagepub.com/doi/10.1177/13872877261487621)**. It depicts genotype-based expression imputation, biomarker pre-selection, cooperative-learning prediction of cognitive scores, feature-importance analysis, and independent validation.
 
-*Figure 1. Study workflow, from data preparation and feature screening through multi-omics modeling, biomarker interpretation, and external validation.*
+*The previously displayed repository image was an earlier COSIME-oriented schematic and is not the final Figure 1 of this study.*
 
 1. **Data preparation:** Impute gene expression from genotype information and assemble measured plasma metabolomics.
 2. **Feature screening:** Evaluate transcriptomic and metabolomic associations with PACC3, adjusting for age, sex, APOE score, and education.
