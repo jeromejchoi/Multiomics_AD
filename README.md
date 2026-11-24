@@ -1,4 +1,4 @@
-# Multi-omics integration for cognitive performance prediction
+# Multi-omics integration of transcriptomics and metabolomics with machine learning uncovers risk factors for cognitive function
 
 **Transcriptomics · Metabolomics · Cooperative learning · Alzheimer’s disease research**
 
@@ -17,7 +17,7 @@ The target was the **Preclinical Alzheimer's Cognitive Composite 3 (PACC3)**, a 
 
 The finalized workflow is shown in **Figure 1 of the [published paper](https://journals.sagepub.com/doi/10.1177/13872877261487621)**. It depicts genotype-based expression imputation, biomarker pre-selection, cooperative-learning prediction of cognitive scores, feature-importance analysis, and independent validation.
 
-*The previously displayed repository image was an earlier COSIME-oriented schematic and is not the final Figure 1 of this study.*
+
 
 1. **Data preparation:** Impute gene expression from genotype information and assemble measured plasma metabolomics.
 2. **Feature screening:** Evaluate transcriptomic and metabolomic associations with PACC3, adjusting for age, sex, APOE score, and education.
